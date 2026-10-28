@@ -1,0 +1,14 @@
+{
+  "name": "basket-pro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Basket Pro: entrenamiento y minijuego de baloncesto",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "check": "node --check app.js && node --check public/game.js"
+  },
+  "engines": { "node": ">=22" },
+  "dependencies": { "express": "^5.1.0" }
+}

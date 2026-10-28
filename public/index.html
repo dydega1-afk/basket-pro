@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101110">
+  <meta name="description" content="Lleva tu pasión por el basket a la cancha. Fundamentos, rutinas y un reto de tiros para poner a prueba tu precisión.">
+  <title>Basket Pro — Tu juego empieza aquí</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="game.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="header wrap">
+    <a class="brand" href="#" aria-label="Basket Pro, inicio"><span class="brand-icon">◉</span> BASKET<span>PRO</span><sup>®</sup></a>
+    <nav aria-label="Navegación principal"><a href="#fundamentos">El juego</a><a href="#rutina">Entrena</a><a class="nav-play" href="#reto">Ir a la cancha ↗</a></nav>
+  </header>
+  <main id="contenido">
+    <section class="hero wrap">
+      <div class="hero-copy"><p class="eyebrow"><span class="dot"></span> PARA QUIENES VIVEN EL JUEGO</p><h1>NO ES SOLO<br>BASKET.<br><em>ES TU CANCHA.</em></h1><p class="intro">Un balón. Un aro. Todas las ganas.<br>Domina los fundamentos y pon a prueba tu precisión.</p><div class="actions"><a class="button" href="#reto">Acepta el reto <span>↗</span></a><a class="text-link" href="#fundamentos">Mejora tu juego ↓</a></div><div class="hero-note"><span>01 / PASIÓN</span><span>02 / PRÁCTICA</span><span>03 / PROGRESO</span></div></div>
+      <div class="hero-art" role="img" aria-label="Balón naranja sobre una cancha oscura con líneas de juego"><div class="court-lines"></div><span class="art-top">THE COURT IS YOURS.</span><div class="big-ball"><i></i><b></b></div><span class="art-number">23</span><div class="art-caption"><span>MENOS EXCUSAS.<br>MÁS CANASTAS.</span><span class="round-arrow">↗</span></div></div>
+    </section>
+    <div class="ticker" aria-hidden="true">JUEGA CON PASIÓN <span>✳</span> ENTRENA CON PROPÓSITO <span>✳</span> DEJA TU HUELLA <span>✳</span> JUEGA CON PASIÓN</div>
+    <section id="fundamentos" class="section wrap">
+      <div class="section-heading"><div><p class="eyebrow">01 / CONSTRUYE TU JUEGO</p><h2>Lo básico te hace grande.</h2></div><p>El talento empieza.<br>La constancia lo lleva más lejos.</p></div>
+      <div class="cards">
+        <article class="card"><div class="card-top"><span>01</span><span class="skill-icon">◎</span></div><h3>Controla el balón.</h3><p>Bota con las yemas, flexiona las rodillas y mantén la mirada al frente. Practica con ambas manos.</p><span class="tag">MANEJO DE BALÓN</span></article>
+        <article class="card"><div class="card-top"><span>02</span><span class="skill-icon">⌁</span></div><h3>Encuentra tu tiro.</h3><p>Pies equilibrados, codo alineado y muñeca relajada. Termina el movimiento apuntando hacia el aro.</p><span class="tag">TÉCNICA DE TIRO</span></article>
+        <article class="card"><div class="card-top"><span>03</span><span class="skill-icon">↔</span></div><h3>Juega en equipo.</h3><p>Muévete sin balón, comunica en defensa y busca el pase extra. Una buena asistencia también cambia el partido.</p><span class="tag">VISIÓN DE JUEGO</span></article>
+      </div>
+    </section>
+    <section id="reto" class="section game-section wrap">
+      <div class="game-copy"><p class="eyebrow">02 / PONTE A PRUEBA</p><h2>Tu momento.<br><span>Tu tiro.</span></h2><p>Tienes 30 segundos. Detén el indicador dentro de la zona naranja para encestar y sumar 2 puntos.</p><ol><li>Pulsa <strong>Comenzar</strong>.</li><li>Espera a que el indicador llegue al centro.</li><li>Pulsa <strong>Tirar</strong> o la tecla <strong>Espacio</strong> con el botón enfocado.</li></ol><p class="small">El récord se guarda en este navegador. ¿Puedes superarte?</p></div>
+      <div class="game-panel">
+        <div class="scoreboard"><div><span>PUNTOS</span><strong id="score">00</strong></div><div><span>TIEMPO</span><strong><span id="time">30</span><small>s</small></strong></div><div><span>RÉCORD</span><strong id="best">00</strong></div></div>
+        <div class="mini-court" aria-hidden="true"><div class="backboard"><div></div></div><div class="hoop"></div><div class="net"></div><div id="game-ball" class="game-ball">✕</div><span class="court-label">BASKET / PRO</span></div>
+        <div class="game-controls"><p id="feedback" role="status" aria-live="polite">La cancha está lista. Te toca.</p><div class="meter" aria-hidden="true"><span class="target"></span><span id="marker"></span></div><div class="meter-labels"><span>ENCUENTRA EL RITMO</span><span>CENTRO = +2</span></div><button id="play" class="button" type="button">Comenzar <span>↗</span></button><button id="reset" class="reset" type="button">Reiniciar partida</button></div>
+      </div>
+    </section>
+    <section id="rutina" class="section wrap routine"><div><p class="eyebrow">03 / UN POCO CADA DÍA</p><h2>20 minutos.<br>Cero excusas.</h2><p>Una rutina sencilla para volver a la cancha con intención.<br>Ajusta el ritmo a tu nivel y disfruta el proceso.</p></div><div class="routine-list"><div><span>01</span><strong>Activa el cuerpo</strong><span>3 MIN</span></div><div><span>02</span><strong>Bote con ambas manos</strong><span>5 MIN</span></div><div><span>03</span><strong>Tiros cerca del aro</strong><span>7 MIN</span></div><div><span>04</span><strong>Pases y desplazamientos</strong><span>5 MIN</span></div></div></section>
+    <section class="closing wrap"><p>NO NECESITAS SER PROFESIONAL PARA</p><h2>JUGAR EN GRANDE.</h2><a href="#reto" class="button">Vuelve a la cancha ↗</a></section>
+  </main>
+  <footer class="wrap"><a class="brand" href="#">BASKET<span>PRO</span></a><p>Hecho para amar el juego. Proyecto educativo.</p><a href="#contenido">Volver arriba ↑</a></footer>
+  <noscript><p class="no-js">Activa JavaScript para jugar al reto de tiros.</p></noscript>
+</body>
+</html>
